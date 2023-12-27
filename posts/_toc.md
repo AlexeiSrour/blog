@@ -1,6 +1,8 @@
 [Home](/)
 [Sample Blog Post](/sample-blog-post)
-
+[To-do list](/todo-list)
+[Texts](/global-references)
+[First Post](/00_SSH-and-PAM)
 <br><br>
 
 To add links to your other posts,
