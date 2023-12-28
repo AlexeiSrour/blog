@@ -12,8 +12,6 @@ jobs:
 
       - name: Build
         run: |
-          # update npm and fix stuffs
-          cd .codedoc && npm audit fix --force
           # install .codedoc dependencies
           (cd .codedoc && npm install)
           # install codedoc
@@ -32,6 +30,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: master
-            #BRANCH: gh-pages
+          BRANCH: gh-pages
           FOLDER: dist
