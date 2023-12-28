@@ -116,8 +116,6 @@ An administrator is responsible for configuring the "PAM stack" for any PAM awar
 |                |
 +----------------+
 
-test text for fun
-
 ---
 
 > :DarkLight
