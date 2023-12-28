@@ -12,6 +12,8 @@ jobs:
 
       - name: Build
         run: |
+          # update npm and fix stuffs
+          cd .codedoc && npm audit fix
           # install .codedoc dependencies
           (cd .codedoc && npm install)
           # install codedoc
