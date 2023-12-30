@@ -79,11 +79,6 @@
       "name": "gatherFootnotes",
       "filename": "/home/alexei/programming/codedocs/coding-blog-boilerplate/.codedoc/node_modules/@codedoc/core/dist/es6/components/footnote/gather-footnotes.js",
       "hash": "GRTxDMAp9LM7PTXJs5ZXAw=="
-    },
-    {
-      "name": "reloadOnChange",
-      "filename": "/home/alexei/programming/codedocs/coding-blog-boilerplate/.codedoc/node_modules/@codedoc/core/dist/es6/serve/reload.js",
-      "hash": "YSmAY38J4yie5rZdBq7gRw=="
     }
   ],
   "components": [
