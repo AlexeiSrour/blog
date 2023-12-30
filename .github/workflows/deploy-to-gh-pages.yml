@@ -25,7 +25,7 @@ jobs:
           npm install
           # install codedoc
           npm install @codedoc/cli
-          PATH=/home/runner/work/coding-blog-boilerplate/coding-blog-boilerplate/.codedoc/node_modules/.bin:$PATH # only .codedoc/node_modules/.bin is the important part of path
+          PATH=./.codedoc/node_modules/.bin:$PATH # only .codedoc/node_modules/.bin is the important part of path
           # build repo
           cd ..
           export NODE_OPTIONS=--openssl-legacy-provider
