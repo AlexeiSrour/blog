@@ -5,12 +5,12 @@ on:
       - master
 jobs:
 
-  build:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v3
-    - name: Setup tmate session
-      uses: mxschmitt/action-tmate@v3
+  #launch-tmate-shell:
+  #  runs-on: ubuntu-latest
+  #  steps:
+  #  - uses: actions/checkout@v3
+  #  - name: Setup tmate session
+  #    uses: mxschmitt/action-tmate@v3
 
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -18,27 +18,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Install
-        continue-on-error: true
-        run: |
-          # install codedoc
-          cd .codedoc
-          npm install @codedoc/cli
-          # install .codedoc dependencies
-          # (cd .codedoc && npm install)
-        env:
-          GITHUB_BUILD: true
-        
       - name: Build
-        # continue-on-error: true
         run: |
+          # install .codedoc dependencies
+          cd .codedoc
+          npm install
+          # install codedoc
+          npm install @codedoc/cli
+          PATH=/home/runner/work/coding-blog-boilerplate/coding-blog-boilerplate/.codedoc/node_modules/.bin:$PATH # only .codedoc/node_modules/.bin is the important part of path
           # build repo
-          (PATH=$(npm bin):$PATH && codedoc build)
-        env:
-          GITHUB_BUILD: true
-
-      - name: Copy
-        run: |
+          cd ..
+          export NODE_OPTIONS=--openssl-legacy-provider
+          codedoc build
           # copy assets
           cp favicon.ico dist/
           cp -r img/ dist/img/
