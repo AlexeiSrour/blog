@@ -26,6 +26,11 @@ jobs:
         run: |
           # build repo
           (PATH=$(npm bin):$PATH && codedoc build)
+        env:
+          GITHUB_BUILD: true
+
+      - name: Copy
+        run: |
           # copy assets
           cp favicon.ico dist/
           cp -r img/ dist/img/
