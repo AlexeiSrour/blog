@@ -15,7 +15,6 @@ import { tocHighlight } from '/home/alexei/programming/codedocs/coding-blog-boil
 import { postNavSearch } from '/home/alexei/programming/codedocs/coding-blog-boilerplate/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/search/post-nav/index.js';postNavSearch();
 import { copyLineLinks } from '/home/alexei/programming/codedocs/coding-blog-boilerplate/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/line-links/copy-line-link.js';copyLineLinks();
 import { gatherFootnotes } from '/home/alexei/programming/codedocs/coding-blog-boilerplate/.codedoc/node_modules/@codedoc/core/dist/es6/components/footnote/gather-footnotes.js';gatherFootnotes();
-import { reloadOnChange } from '/home/alexei/programming/codedocs/coding-blog-boilerplate/.codedoc/node_modules/@codedoc/core/dist/es6/serve/reload.js';reloadOnChange();
 import { Author } from '/home/alexei/programming/codedocs/coding-blog-boilerplate/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/author/index.js';
 import { ToCToggle } from '/home/alexei/programming/codedocs/coding-blog-boilerplate/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toggle/index.js';
 import { DarkModeSwitch } from '/home/alexei/programming/codedocs/coding-blog-boilerplate/.codedoc/node_modules/@codedoc/core/dist/es6/components/darkmode/index.js';
