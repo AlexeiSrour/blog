@@ -10,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Build
+      - name: Install
         continue-on-error: true
         run: |
           # install codedoc
@@ -18,6 +18,12 @@ jobs:
           npm install @codedoc/cli
           # install .codedoc dependencies
           # (cd .codedoc && npm install)
+        env:
+          GITHUB_BUILD: true
+        
+      - name: Build
+        # continue-on-error: true
+        run: |
           # build repo
           (PATH=$(npm bin):$PATH && codedoc build)
           # copy assets
