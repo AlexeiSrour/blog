@@ -11,33 +11,31 @@
 >
 > A clever title on coding, computer science, mathematics, and anything else that tickles my fancy
 
+# Mission Statement
+
 There are three primary purposes for this blog's existence:
 - As a record of account of my learnings in all topics that I've taken an interest in - past, present, and future.
 - As an archive and reference of my own knowledge and, in particular, links to other sources for that knowledge.
-- As an environment to share and explore knowledge between individuals
+- As an environment to share and explore knowledge between individuals.
 
 To that end, in order to achieve said purpose,  I'd like for this blog to host not only posts which should be self contained
 and completed write ups on a particular topic, but to also maintain a "todo" list of sorts, for ideas and/or projects that are
 currently queued, as well as a "current" list to keep tabs on what I'm working on concurrently.
 
 Each post should maintain a solid references list, and an additional recommended readings/texts page ought to be maintained that
-list a majority of the most useful texts used. Breakdowns and a description of the text with reason fo recommendation will be
+list a majority of the most useful texts used. Breakdowns and a description of the text with reason for recommendation will be
 provided and information/links/metadata provided for convenient retrieval of said texts.
 
 A means to comment under posts ought to be facilitated. Perhaps further contact details ought to be provided to social media
 to further allow individuals to share posts or comment directly to the author with further information. Finally, a key requirement
 of hosting the blog will be organised, most likely via GitHub pages.
 
-
-This is a sample homepage for your [`coding.blog`](https://coding.blog). You can use
-it to showcase your latest / most-important blog posts (or whatever suites your case).
-You can modify its content by editting `posts/index.md`.
-
 ---
 
 # Latest Posts
 
 So here are the latest posts:
+_I'm thinking this should list out the most recent posts, as well as provide a nice big link to the list of **all** posts, maybe? What's the point of the side bar then..._
 
 > :ArticleCard src=/sample-blog-post, style=box
 
@@ -49,21 +47,25 @@ So here are the latest posts:
 
 ---
 
-# Docs
+# Documentation and Maintenance
 
-`coding.blog` is based on [**CODEDOC**](https://codedoc.cc). Checkout the official documentations
-of **CODEDOC** to learn more about how it works and how you can utilize it to create your blog.
+It is worth mentioning the documentation on how this blog is to be developed and maintained. The base technology powering
+this blog is [**CODEDOC**](https://codedoc.cc), a coding documentation suite for use with GitHub pages. To further enhance the "blog-ability"
+of **CODEDOC**, a plugin called [`coding.blog` plugin for **CODEDOC**](https://connect-platform.github.io/coding-blog-plugin) has been utilised
+which comes with a suite of extra "blog-like" capabilities, and first class support for publishing to _(the currently abandoned)_ [`coding.blog`](https://coding.blog)
 
-> :Buttons
-> > :Button label=CODEDOC Docs, url=https://codedoc.cc
+This blog's inception is from a fork of _(the now abandoned)_ [coding-blog-boiler-plate](https://github.com/CONNECT-platform/coding-blog-boilerplate), which
+features instructions on how to prepare the blog for hosting. Unfortunately, it contains a broken github action workflow for hosting the github
+page, it has been corrected and updated as part of this fork.
 
-Additionally, this boilerplate uses [`coding.blog` Plugin for **CODEDOC**](https://github.com/CONNECT-platform/coding-blog-plugin),
-which offers components and functionality specifically designed around writing blog-posts
-and publishing them to `coding.blog`. Checkout the documentation of that plugin to learn more
-about the tools at your displosal for blogging.
+The above should list all the documentation required for building and maintaining this blog in the future, as well as some additional
+ancillary resources for future extensions. [CONNECTIVE SDH](https://github.com/CONNECT-platform/connective-sdh) appears to power much
+of the extensibility of **CODEDOC**, a further deepdive into creating custom components for this blog will be warranted. A final resource
+that will warrant investigation is the [`jamstack.org`](https://jamstack.org/generators) static html generators. It would appear that
+options for blogs that can host comments already exist, and that some of the generators support more "blog-like" formats.
 
-> :Buttons
-> > :Button label=Plugin Docs, url=https://connect-platform.github.io/coding-blog-plugin/
+Ultimately, if this blog is to go anywhere, it will eventually migrate to a homebrewed self hosted website. But for now, this is the
+current state of affairs, and the first point of contact for maintaining this blog.
 
 <br><br>
 

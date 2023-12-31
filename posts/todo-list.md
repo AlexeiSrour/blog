@@ -21,6 +21,7 @@ Related to current projects will be the project queue, which will serve as a lis
 - create blog post based off ISPC and research for vectorising code.
 - review a number of research I have to make blogs off
 - configure data for references page (might require custom component?)
+- might need to create a new component in place of ToCPrevNext so that next/prev buttons go to separate places
 
 ___
 
