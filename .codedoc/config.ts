@@ -30,6 +30,9 @@ export const config = /*#__PURE__*/configuration({
         'img',
         'favicon.ico',
       ]
+	  feed: {
+		url: 'https://alexeisrour.github.io'
+	  }
     })
   ],
   misc: {
