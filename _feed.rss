@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Alexei Srour's Blog</title>
-        <link>https://alexeisrour.github.io/blog</link>
+        <link>https://alexeisrour.github.io/blog/blog</link>
         <description></description>
-        <lastBuildDate>Sun, 31 Dec 2023 01:56:56 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 31 Dec 2023 02:00:32 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <atom:link href="https://alexeisrour.github.io/_feed.rss" rel="self" type="application/rss+xml"/>
+        <atom:link href="https://alexeisrour.github.io/blog/_feed.rss" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Alexei Srour's Blog | My experience configuring SSH, PAM, port forwarding, and two-factor authentication for global access to my home PC]]></title>
-            <link>https://alexeisrour.github.io/blog/00_SSH-and-PAM</link>
-            <guid>https://alexeisrour.github.io/blog/00_SSH-and-PAM</guid>
-            <pubDate>Sun, 31 Dec 2023 01:56:09 GMT</pubDate>
+            <link>https://alexeisrour.github.io/blog/blog/00_SSH-and-PAM</link>
+            <guid>https://alexeisrour.github.io/blog/blog/00_SSH-and-PAM</guid>
+            <pubDate>Sun, 31 Dec 2023 01:59:40 GMT</pubDate>
             <content:encoded><![CDATA[My experience configuring SSH, PAM, port forwarding, and two-factor authentication for global access to my home PC ...]]></content:encoded>
             <author>alyosha85@hotmail.com (AlexeiSrour)</author>
             <enclosure url="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1900&h=600&fit=crop" length="0" type="image//photo-1486312338219-ce68d2c6f44d"/>
         </item>
         <item>
             <title><![CDATA[Alexei Srour's Blog | Sample Blog Post]]></title>
-            <link>https://alexeisrour.github.io/blog/change</link>
-            <guid>https://alexeisrour.github.io/blog/change</guid>
-            <pubDate>Sun, 31 Dec 2023 01:56:09 GMT</pubDate>
+            <link>https://alexeisrour.github.io/blog/blog/change</link>
+            <guid>https://alexeisrour.github.io/blog/blog/change</guid>
+            <pubDate>Sun, 31 Dec 2023 01:59:40 GMT</pubDate>
             <content:encoded><![CDATA[Sample Blog Post ...]]></content:encoded>
             <author>alyosha85@hotmail.com (AlexeiSrour)</author>
             <enclosure url="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1900&h=600&fit=crop" length="0" type="image//photo-1486312338219-ce68d2c6f44d"/>
         </item>
         <item>
             <title><![CDATA[Alexei Srour's Blog | All texts, references, etc]]></title>
-            <link>https://alexeisrour.github.io/blog/global-references</link>
-            <guid>https://alexeisrour.github.io/blog/global-references</guid>
-            <pubDate>Sun, 31 Dec 2023 01:56:09 GMT</pubDate>
+            <link>https://alexeisrour.github.io/blog/blog/global-references</link>
+            <guid>https://alexeisrour.github.io/blog/blog/global-references</guid>
+            <pubDate>Sun, 31 Dec 2023 01:59:40 GMT</pubDate>
             <content:encoded><![CDATA[All texts, references, etc ...]]></content:encoded>
             <author>alyosha85@hotmail.com (AlexeiSrour)</author>
         </item>
         <item>
             <title><![CDATA[Alexei Srour's Blog | Sample Blog Post]]></title>
-            <link>https://alexeisrour.github.io/blog/sample-blog-post</link>
-            <guid>https://alexeisrour.github.io/blog/sample-blog-post</guid>
-            <pubDate>Sun, 31 Dec 2023 01:56:09 GMT</pubDate>
+            <link>https://alexeisrour.github.io/blog/blog/sample-blog-post</link>
+            <guid>https://alexeisrour.github.io/blog/blog/sample-blog-post</guid>
+            <pubDate>Sun, 31 Dec 2023 01:59:40 GMT</pubDate>
             <content:encoded><![CDATA[Sample Blog Post ...]]></content:encoded>
             <author>alyosha85@hotmail.com (AlexeiSrour)</author>
             <enclosure url="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1900&h=600&fit=crop" length="0" type="image//photo-1486312338219-ce68d2c6f44d"/>
         </item>
         <item>
             <title><![CDATA[Alexei Srour's Blog | To-do Listing]]></title>
-            <link>https://alexeisrour.github.io/blog/todo-list</link>
-            <guid>https://alexeisrour.github.io/blog/todo-list</guid>
-            <pubDate>Sun, 31 Dec 2023 01:56:09 GMT</pubDate>
+            <link>https://alexeisrour.github.io/blog/blog/todo-list</link>
+            <guid>https://alexeisrour.github.io/blog/blog/todo-list</guid>
+            <pubDate>Sun, 31 Dec 2023 01:59:40 GMT</pubDate>
             <content:encoded><![CDATA[To-do Listing ...]]></content:encoded>
             <author>alyosha85@hotmail.com (AlexeiSrour)</author>
         </item>
