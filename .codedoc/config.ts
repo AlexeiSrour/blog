@@ -29,7 +29,7 @@ export const config = /*#__PURE__*/configuration({
       assets: [
         'img',
         'favicon.ico',
-      ]
+      ],
 	  feed: {
 		url: 'https://alexeisrour.github.io'
 	  }
