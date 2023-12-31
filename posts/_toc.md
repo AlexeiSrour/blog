@@ -1,4 +1,5 @@
 [Home](/)
+[All Posts](/all_posts_listing)
 [Sample Blog Post](/sample-blog-post)
 [To-do list](/todo-list)
 [Texts](/global-references)

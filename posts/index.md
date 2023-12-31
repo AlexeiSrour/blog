@@ -7,9 +7,9 @@
 > >
 > > ![banner](/img/cb-banner-dark.svg)
 
-> :Title
+> :Title lead=perhaps the title below should be the lead?
 >
-> Clever Title about coding, comp sci, math, and whatever else
+> A clever title on coding, computer science, mathematics, and anything else that tickles my fancy
 
 There are three primary purposes for this blog's existence:
 - As a record of account of my learnings in all topics that I've taken an interest in - past, present, and future.
