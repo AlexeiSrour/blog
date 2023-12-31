@@ -31,7 +31,7 @@ export const config = /*#__PURE__*/configuration({
         'favicon.ico',
       ],
 	  feed: {
-		url: 'https://alexeisrour.github.io/blog'
+		url: 'https://alexeisrour.github.io'
 	  }
     })
   ],
