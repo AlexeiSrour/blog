@@ -1,70 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://alexeisrour.github.io/blog/blog</id>
+    <id>https://alexeisrour.github.io/blog</id>
     <title>Alexei Srour's Blog</title>
-    <updated>2023-12-31T02:00:32.091Z</updated>
+    <updated>2023-12-31T02:05:51.167Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://alexeisrour.github.io/blog/blog"/>
-    <link rel="self" href="https://alexeisrour.github.io/blog/_feed.atom"/>
-    <icon>https://alexeisrour.github.io/blog/blog/favicon.ico</icon>
+    <link rel="alternate" href="https://alexeisrour.github.io/blog"/>
+    <link rel="self" href="https://alexeisrour.github.io/_feed.atom"/>
+    <icon>https://alexeisrour.github.io/blog/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Alexei Srour's Blog | My experience configuring SSH, PAM, port forwarding, and two-factor authentication for global access to my home PC]]></title>
-        <id>https://alexeisrour.github.io/blog/blog/00_SSH-and-PAM</id>
-        <link href="https://alexeisrour.github.io/blog/blog/00_SSH-and-PAM"/>
-        <updated>2023-12-31T01:59:40.000Z</updated>
+        <id>https://alexeisrour.github.io/blog/00_SSH-and-PAM</id>
+        <link href="https://alexeisrour.github.io/blog/00_SSH-and-PAM"/>
+        <updated>2023-12-31T02:05:05.000Z</updated>
         <content type="html"><![CDATA[My experience configuring SSH, PAM, port forwarding, and two-factor authentication for global access to my home PC ...]]></content>
         <author>
             <name>AlexeiSrour</name>
             <email>alyosha85@hotmail.com</email>
         </author>
-        <published>2023-12-31T01:59:40.000Z</published>
+        <published>2023-12-31T02:05:05.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Alexei Srour's Blog | Sample Blog Post]]></title>
-        <id>https://alexeisrour.github.io/blog/blog/change</id>
-        <link href="https://alexeisrour.github.io/blog/blog/change"/>
-        <updated>2023-12-31T01:59:40.000Z</updated>
+        <id>https://alexeisrour.github.io/blog/change</id>
+        <link href="https://alexeisrour.github.io/blog/change"/>
+        <updated>2023-12-31T02:05:05.000Z</updated>
         <content type="html"><![CDATA[Sample Blog Post ...]]></content>
         <author>
             <name>AlexeiSrour</name>
             <email>alyosha85@hotmail.com</email>
         </author>
-        <published>2023-12-31T01:59:40.000Z</published>
+        <published>2023-12-31T02:05:05.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Alexei Srour's Blog | All texts, references, etc]]></title>
-        <id>https://alexeisrour.github.io/blog/blog/global-references</id>
-        <link href="https://alexeisrour.github.io/blog/blog/global-references"/>
-        <updated>2023-12-31T01:59:40.000Z</updated>
+        <id>https://alexeisrour.github.io/blog/global-references</id>
+        <link href="https://alexeisrour.github.io/blog/global-references"/>
+        <updated>2023-12-31T02:05:05.000Z</updated>
         <content type="html"><![CDATA[All texts, references, etc ...]]></content>
         <author>
             <name>AlexeiSrour</name>
             <email>alyosha85@hotmail.com</email>
         </author>
-        <published>2023-12-31T01:59:40.000Z</published>
+        <published>2023-12-31T02:05:05.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Alexei Srour's Blog | Sample Blog Post]]></title>
-        <id>https://alexeisrour.github.io/blog/blog/sample-blog-post</id>
-        <link href="https://alexeisrour.github.io/blog/blog/sample-blog-post"/>
-        <updated>2023-12-31T01:59:40.000Z</updated>
+        <id>https://alexeisrour.github.io/blog/sample-blog-post</id>
+        <link href="https://alexeisrour.github.io/blog/sample-blog-post"/>
+        <updated>2023-12-31T02:05:05.000Z</updated>
         <content type="html"><![CDATA[Sample Blog Post ...]]></content>
         <author>
             <name>AlexeiSrour</name>
             <email>alyosha85@hotmail.com</email>
         </author>
-        <published>2023-12-31T01:59:40.000Z</published>
+        <published>2023-12-31T02:05:05.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Alexei Srour's Blog | To-do Listing]]></title>
-        <id>https://alexeisrour.github.io/blog/blog/todo-list</id>
-        <link href="https://alexeisrour.github.io/blog/blog/todo-list"/>
-        <updated>2023-12-31T01:59:40.000Z</updated>
+        <id>https://alexeisrour.github.io/blog/todo-list</id>
+        <link href="https://alexeisrour.github.io/blog/todo-list"/>
+        <updated>2023-12-31T02:05:05.000Z</updated>
         <content type="html"><![CDATA[To-do Listing ...]]></content>
         <author>
             <name>AlexeiSrour</name>
             <email>alyosha85@hotmail.com</email>
         </author>
-        <published>2023-12-31T01:59:40.000Z</published>
+        <published>2023-12-31T02:05:05.000Z</published>
     </entry>
 </feed>
