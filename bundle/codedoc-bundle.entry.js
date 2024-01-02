@@ -20,8 +20,8 @@ import { ToCToggle } from '/home/runner/work/blog/blog/.codedoc/node_modules/@co
 import { DarkModeSwitch } from '/home/runner/work/blog/blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/darkmode/index.js';
 import { ConfigTransport } from '/home/runner/work/blog/blog/.codedoc/node_modules/@codedoc/core/dist/es6/transport/config.js';
 import { ArticleCard } from '/home/runner/work/blog/blog/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/article-card/index.js';
-import { ToCPrevNext } from '/home/runner/work/blog/blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js';
 import { TabSelector } from '/home/runner/work/blog/blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/tabs/selector.js';
+import { ToCPrevNext } from '/home/runner/work/blog/blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js';
 
 const components = {
   'tvU4ZvTyVzKC9UotaYeV1w==': Author,
@@ -29,8 +29,8 @@ const components = {
   'QtGDrozMmpfzLYU0jY3n+w==': DarkModeSwitch,
   'Rs0VnrLCFSwfOm1o3R6OHg==': ConfigTransport,
   '4I2LlaAPZ3FDHhFl7YOveg==': ArticleCard,
-  'PFhwqFF68841RB6Nunq1Zg==': ToCPrevNext,
-  'vG6ZDf7oINlAp89F4hMUuA==': TabSelector
+  'vG6ZDf7oINlAp89F4hMUuA==': TabSelector,
+  'PFhwqFF68841RB6Nunq1Zg==': ToCPrevNext
 };
 
 const renderer = getRenderer();

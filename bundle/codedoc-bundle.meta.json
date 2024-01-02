@@ -108,14 +108,14 @@
       "hash": "4I2LlaAPZ3FDHhFl7YOveg=="
     },
     {
-      "name": "ToCPrevNext",
-      "filename": "/home/runner/work/blog/blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js",
-      "hash": "PFhwqFF68841RB6Nunq1Zg=="
-    },
-    {
       "name": "TabSelector",
       "filename": "/home/runner/work/blog/blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/tabs/selector.js",
       "hash": "vG6ZDf7oINlAp89F4hMUuA=="
+    },
+    {
+      "name": "ToCPrevNext",
+      "filename": "/home/runner/work/blog/blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js",
+      "hash": "PFhwqFF68841RB6Nunq1Zg=="
     }
   ],
   "renderer": {
