@@ -1,6 +1,6 @@
 [Home](/)
 [All Posts](/all_posts_listing)
-[Projects](/projects_listing)
+[Endeavors](/endeavors_listing)
 [References](/references_listing)
 <br><br>
 

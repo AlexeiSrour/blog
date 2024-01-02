@@ -11,7 +11,7 @@
 >
 > A clever title on coding, computer science, mathematics, and anything else that tickles my fancy
 
-# Mission Statement
+# Goals
 
 There are three primary purposes for this blog's existence:
 - As a record of account of my learnings in all topics that I've taken an interest in - past, present, and future.
@@ -29,6 +29,9 @@ provided and information/links/metadata provided for convenient retrieval of sai
 A means to comment under posts ought to be facilitated. Perhaps further contact details ought to be provided to social media
 to further allow individuals to share posts or comment directly to the author with further information. Finally, a key requirement
 of hosting the blog will be organised, most likely via GitHub pages.
+
+Ultimately, this will be a long multi year project. Rather than implementing all these features fully realised, I will
+sooner be implementing basic functionalities incrementally to realise these individualy goals gradually.
 
 ---
 
