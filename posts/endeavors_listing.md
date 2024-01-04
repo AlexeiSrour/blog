@@ -47,7 +47,7 @@ Add some words here
 > >
 > > The below is a list of formerly planned posts taht have since been forgotten and abandoned:
 > > - **Using rdtsc(p) as an accurate and fine-grained general purpose timer**
-> >     - _This blog idea had far larger scope than I imagined, and has since gone stale from its inception. I dug too deep and too greedily. Notable wells of information are "Using the RDTSC Instruction for Performance Monitoring" and "How to Benchmark Code Executions Time..." intel white paper. These are slightly out of date, in particular on topics of serializing the rdtsc(p) calls, for which one should consult the Intel **and** AMD hardware manuals for those instructions. Of note are printed loose leaf with highlights from AMD's 245593-Rev 3.41-June 2023 pages 422, 433, 435 (section 13.2.4). Intel's hardware manual is also included but only one page about Fence instructions section 9.4.5, which is unusual since the intels instruction reference for rdtsc(p) is actually slightly at odds with AMD's, specifically using it as a wall clock timer_
+> >     - _This blog idea had far larger scope than I imagined, and has since gone stale from its inception. I dug too deep and too greedily. Notable wells of information are "Using the RDTSC Instruction for Performance Monitoring" and "How to Benchmark Code Executions Time..." intel white paper. These are slightly out of date, in particular on topics of serializing the rdtsc(p) calls, for which one should consult the Intel **and** AMD hardware manuals for those instructions. Of note are printed loose leaf with highlights from AMD's 245593-Rev 3.41-June 2023 pages 422, 433, 435 (section 13.2.4). Intel's hardware manual is also included but only one page about Fence instructions section 9.4.5, which is unusual since the intels instruction reference for rdtsc(p) is actually slightly at odds with AMD's, specifically using it as a wall clock timer. I've also found a "Blogideas" text dump pointing to more resources from intel on my work computer's desktop_
 > > - create blog post based off OS Three Easy Pieces homework on timing syscalls and context switches (include /usr/bin/time)
 > > - create blog post based off context switches and speculation on why they're expensive
 >
@@ -72,7 +72,7 @@ Note, I reckon projects should specifically be about hardware and software devel
 > > Should I add words here?
 > > - programming from the ground up
 > > - OS Three Easy Pieces
-> > - CodeCrafters.io
+> > - CodeCrafters.io, appears to be an [unofficial repository](https://github.com/codecrafters-io/build-your-own-x) that might be worth checking out first
 >
 > > :Tab title=Queued Projects
 > >
@@ -88,6 +88,7 @@ Note, I reckon projects should specifically be about hardware and software devel
 > > - Learning Lambda calculus, logical foundations of functional programming
 > > - learning ML and/or HOL, HOL manual is a good reference and a gentle introduction to ML too
 > > - Michael Abrash has a piece on writing a software renderer for the intel Larabee architecture, I definitely want to try implementing it: https://www.cd.cmu.edu/afs/cs/academic/class/15869-f11/www/readings/abrash09_lrbrast.pdf
+> > - The bitsquit blog about a [data driven massively parallel virtual machine](https://bitsquid.blogspot.com/2012/10/a-data-oriented-data-driven-system-for.html) might be fun to implement
 >
 > > :Tab title=Retired Projects
 >
@@ -125,12 +126,26 @@ Things I'm researching and studying, for textbooks and the like that normally ta
 > > The below is anew list of ideas and tasks I have in mind which entail no more than a weekend's worth of time to implement
 > >
 > > - huzzah!
+> > - Create custom landing page visual in illustrator
+> > - Create some sample hero images
+> > - work out some colour themeing and text font ideas
+> > - Follow a recipe on the codedoc's page for move the 'x' on the hamburger menu up
 >
 > > :Tab title=Major Tasks
 > >
 > > The below is a list of ideas and tasks that will entail a considerable amount of effort to implement, with a scope measured in weeks and possibly months
 > >
 > > - hooray!
+> > - Add a layer of indirection between project/studies/blogs status and deploying this page
+> >     - _Creating a "git-like" script that helps maintaing the various to-dos on this page. E.g._ `create new abandoned blog` _or_ `update projects` _(for moving items between categories). No indirect file required, I'd like for it to be able to read this markdown file directly and make edits to it directly without the user having to rely on an additional text file or something like that (not to say the implementation can't rely on such methods)_
+> > - Add a layer of indirection between creating a new blog post and deploying it as a webpage
+> >     - _The idea I had in mind is that you would start writing a blog post using the usual markdown format. Once it is fully complete, you'd run a script something like `deploy blog` that would take an input markdown file, ask what relative link you'd be interested in for it, what the blog's title should be, and check if it is an already planned blog post, to then add it to the all blogs page, move it from the planned blogs to completed blogs, create proper links for all of them, and maybe any other bookkeeping (e.g. maybe correctly add the cited sources to the references page too?). It may even be extended to assist in the moving and renaming of blog posts_
+> >
+> > - Creating a database for references list
+> >     - _Functionally a layer of indirection. The idea being that one inserts, tags, and provides descriptions for each research in the database, and then this database is used to populate the "all references" page during compile time_
+> >
+> > - Creating some kind of enhanced database for blog listings
+> >     - _Similar to the above idea for a all references having a database. I'd love to be able to tag each post with their dates of original posting, what ever series they are a part of (imagine branching and merging series paths!), and tags for each post_
 >
 > > :Tab title=End Goals?
 > >
