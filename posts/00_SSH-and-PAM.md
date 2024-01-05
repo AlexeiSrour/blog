@@ -187,7 +187,7 @@ unga bunga // wumpus rumpus
 
 firstly, there were three possible solutions to my desire to access my home PC. We had self hosting a VPN, we had paid services like tailscale that provide servers and services to tunnel through, and finally we have portforwarding and SSH
 
-my issues with VPN is that it looked to be hours of research and I wanted something up and running now. Moreover, I'm not entirely clear how using a VPN replaces a hardened SSH connection. Tailscale looks like a handy service and would have been my selection of choice as it meets my needs, except for the install required. Still, honourable mention to Tailscale. Finally, I opted for SSH and portforwarding because it's a solution I'm already partially familiar with, it will be nice and portable, and its something I **thought** I could get up and running fairly quickly.
+My issues with VPN is that it looked to be hours of research and I wanted something up and running now. Moreover, I'm not entirely clear how using a VPN replaces a hardened SSH connection. Tailscale looks like a handy service and would have been my selection of choice as it meets my needs, except for the install required. Still, honourable mention to Tailscale. Finally, I opted for SSH and portforwarding because it's a solution I'm already partially familiar with, it will be nice and portable, and its something I **thought** I could get up and running fairly quickly.
 
 I'm not the first to think about this, and there's a plethora of resources out there pointing out potential dangers and workarounds to help make this safer. This post is one such example
 
