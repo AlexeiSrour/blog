@@ -26,7 +26,164 @@
 
 <br>
 
-Disclaimer: I am no expert in matters of internet security. This post is a recounting of the problems and solutions discovered in creating a globally accessible home network that was too my personal liking
+
+> :Center
+>
+> > _Disclaimer: I am no expert in matters of internet security. This post exists for educational and instructional purposes only, as a recounting of the problems and solutions I personally faced in creating a globally accessible home network that was too my own liking and standards._
+> >
+> > _Reproduce these steps at your own risk._
+
+
+As a first matter of business, I feel I owe it to myself and any potential readers to state my configurations and steps up front for convenience and for ease of access:
+
+> :Collapse label=[Expand to see TL;DR of the process]
+>
+> > :Center
+> >
+> > **Before walking through the following steps, please ensure you have a guaranteed way of maintaining a connection to the server, ideally via local physical access.**
+> >
+> > _This is merely a high level summary of the process without delving into much of the minutia that can arise. Any issues or techniques for managing the setup are explained through the rest of the article._
+> 
+> > :Big
+> >
+> > Install and setup Google Authenticator
+>
+> The Google Authenticator app will be required on your smart device for two-factor authentication to work.
+>
+> ```bash
+> sudo pacman -S libpam-google-authenticator # I use Arch, btw
+> sudo pacman -S qrencode # Not required by highly recommended
+>
+> google-authenticator
+> >Do you want authentication tokens to be time-based (y/n) y
+> >Warning: pasting the following URL into your browser exposes the OTP secret to Google:
+> >  https://www.googl.com/***************
+> >
+> >
+> ># A QR code will be displayed here if qrencode has been installed
+> ># Scan with Google Authenticator for quicker and more secure setup
+> >
+> >
+> >Your new secret key is: abcdefghABCDEFGH0123456789
+> >Enter code from app (-1 to skip): 123456 # NOT RECOMMENDED TO SKIP
+> >Code confirmed
+> >Your emergency scratch codes are:
+> >  12345678
+> >  12345678
+> >  12345678
+> >  12345678
+> >  12345678
+> >
+> >Do you want me to update your "/home/user/.google_authenticator" file? (y/n) y
+> >
+> >Do you want to disallow multiple uses of the same authentication
+> >token? This restircts you to on login about every 30s, but it increases
+> >your chances to notice or even prevent man-in-the-middle attacks (y/n) y
+> >
+> >By default, a new token is generate every 30 seconds by the mobile app.
+> >In order to compensate for possible time-skew between the client and the server
+> >we allow an extra token before and after the current time. This allows for a
+> >experience porblems with pour time synchronization, you can increase the window
+> >from its default size of 3 permitted codes (one previous code, the current
+> >code, the next code) to 17 permitted codes (the 8 previouse codes, the current
+> >code, and the 8 next codes). This will permit for a time skew of up to 4 minutes
+> >between client and server.
+> >Do you want to do so? (y/n) n
+> >
+> >If the computer that you are logging into isn't hardened against brute-force
+> >login attempts, you can enable rate-limiting for the authentication module.
+> >By default, this limits attackers to no more than 3 login attempts every 30s.
+> >Do you want to enable rate-limiting? (y/n) y
+> ```
+>
+> _I wonder if I should add a quick one liner commentary on the timing bugs? I wonder if I should add a summarised description of the Y's and N's_
+>
+> > :Big
+> > 
+> > Edit the PAM configuration for sshd
+>
+> Create the following helper configuration file for use in the main config later: _(refer back to my file for extra notes inside that I can use in the blog post)_
+>
+> ``` python | /etc/security/access-local.conf
+> + : ALL : 192.168.0.
+> - : ALL : ALL
+> ```
+>
+> A PAM configuration file for SSHd will likely already exist on most major Linux distributions. It will be similar in form to the below, add only the below two lines near to the top of the file.
+>
+> ``` python | /etc/pam.d/sshd
+> #%PAM-1.0
+> # Standard Un*x password updating
+> /*+*/auth [success=1 degault=ignore] pam_access.so accessfile=/etc/security/access-local.conf
+> /*+*/auth [success=done new_authtok_reqd=ok ignore=ignore default=die] pam_google_athenticator.so
+>
+> auth      include     system-remote-login
+> account   include     system-remote-login
+> password  include     system-remote-login
+> session   include     system-remote-login
+> ```
+>
+> > :Big
+> > 
+> > Create an SSH Key-Pair
+>
+> _Surely this is outside the scope of this article? figure it out yourselves!_
+>
+> > :Big
+> > 
+> > Edit the SSHd config file
+>
+> The below is the sshd config used, highlights emphasise required changes from defaults:
+>
+> ``` python | /etc/ssh/sshd_config
+> Port 22
+> AuthorizedKeysFile .config/.ssh/authorized_keys # --> This PC is configured using the XDG Base Directory Specification (https://wolo.archlinux.org/title/XDG_Base_Directory)
+> /*!*/PasswordAuthentication no
+> /*!*/KbdInteractiveAuthentication yes
+> /*!*/UsePAM yes
+> /*!*/ChallengeResponseAuthentication yes
+> /*!*/AuthenticationMethods publickey,keyboard-interactive:pam
+> /*!*/PrintMotd no # --> PAM already does this, set to no to avoid double up
+> Subsystem    sftp    /usr/lib/ssh/sftp-server
+> 
+> /*!*/Match Address 192.168.0.*
+> /*!*/    AuthenticationMethods publickey keyboard-interactive:pam
+> ```
+>
+> > :Big
+> >
+> > Restart the sshd daemon
+>
+> After every change, restarting SSHd will make configuration changes stick. Also a good idea to periodically restart. _I should add a disclaimer that the article assumes you can already ssh into your server, figure it out yourself >:(_
+>
+> ```bash
+> sudo systemctl restart sshd
+> ```
+>
+> > :Big
+> >
+> > Port Forward
+>
+> _I should probably make mention of setting up a static local IP and forwarding a nonstandard port to port 22 of the server_
+>
+> _I wonder if I should make mention of the hardware setup? E.g. having a PSU to protect against power outtages so I don't get locked out_
+>
+> _Also, is it possible for me to restart the server remotely and then get back in...? It should be possible but I don't know if my setup has it :3_
+>
+> > :Big
+> >
+> > Final Result
+>
+> _Basically explain in one or two lines how the above lets you connect safely to a remote network, with one or two weird edge cases that need ironing out :3_
+>
+> For an explanation of what was acheived and how, or for help tuning and debugging, please read on
+
+``` c | wing ding
+inka minka // bingus dingus
+unga bunga // wumpus rumpus
+```
+> :Buttons
+> > :CopyButton
 
 firstly, there were three possible solutions to my desire to access my home PC. We had self hosting a VPN, we had paid services like tailscale that provide servers and services to tunnel through, and finally we have portforwarding and SSH
 
@@ -117,6 +274,8 @@ An administrator is responsible for configuring the "PAM stack" for any PAM awar
 +----------------+
 
 ---
+
+some things to include: It works with scp and sftp, woot. trying to connect to ip address without user specified still gives authenticator prompt with weird error in journalctl, which is weird. Bad. Add that trying to connect to your home network ip from a global ip now fails after a while. Almost certainly a PAM config could fix this, but it's weird that this happens at all
 
 > :DarkLight
 > > :InDark
