@@ -16,6 +16,7 @@ import { postNavSearch } from '/home/runner/work/blog/blog/.codedoc/node_modules
 import { copyLineLinks } from '/home/runner/work/blog/blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/line-links/copy-line-link.js';copyLineLinks();
 import { gatherFootnotes } from '/home/runner/work/blog/blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/footnote/gather-footnotes.js';gatherFootnotes();
 import { Author } from '/home/runner/work/blog/blog/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/author/index.js';
+import { CollapseControl } from '/home/runner/work/blog/blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/collapse/collapse-control.js';
 import { ToCToggle } from '/home/runner/work/blog/blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toggle/index.js';
 import { DarkModeSwitch } from '/home/runner/work/blog/blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/darkmode/index.js';
 import { ConfigTransport } from '/home/runner/work/blog/blog/.codedoc/node_modules/@codedoc/core/dist/es6/transport/config.js';
@@ -25,6 +26,7 @@ import { ToCPrevNext } from '/home/runner/work/blog/blog/.codedoc/node_modules/@
 
 const components = {
   'tvU4ZvTyVzKC9UotaYeV1w==': Author,
+  'BW5/JozIUuMeRr9sjNL7zw==': CollapseControl,
   'k0lYj9deiYXngpZFqYY0vQ==': ToCToggle,
   'QtGDrozMmpfzLYU0jY3n+w==': DarkModeSwitch,
   'Rs0VnrLCFSwfOm1o3R6OHg==': ConfigTransport,

@@ -88,6 +88,11 @@
       "hash": "tvU4ZvTyVzKC9UotaYeV1w=="
     },
     {
+      "name": "CollapseControl",
+      "filename": "/home/runner/work/blog/blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/collapse/collapse-control.js",
+      "hash": "BW5/JozIUuMeRr9sjNL7zw=="
+    },
+    {
       "name": "ToCToggle",
       "filename": "/home/runner/work/blog/blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toggle/index.js",
       "hash": "k0lYj9deiYXngpZFqYY0vQ=="
