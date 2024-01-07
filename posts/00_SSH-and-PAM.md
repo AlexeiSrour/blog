@@ -578,7 +578,7 @@ An administrator is responsible for configuring the "PAM stack" for any PAM awar
 ###### Uber deep
 ####### can't go any further :(
 
-some things to include: It works with scp and sftp, woot. trying to connect to ip address without user specified still gives authenticator prompt with weird error in journalctl, which is weird. Bad. Add that trying to connect to your home network ip from a global ip now fails after a while. Almost certainly a PAM config could fix this, but it's weird that this happens at all. Oh oh oh, and add an aside on creating two ssh keys, one for when connecting via local network, and the second that is password protected for when you're connecting from a global network, and use PAM to enforce the "local" key when at home, but a global password protected key when outside
+some things to include: It works with scp and sftp, woot. trying to connect to ip address without user specified still gives authenticator prompt with weird error in journalctl, which is weird. Bad. Add that trying to connect to your home network ip from a global ip now fails after a while. Almost certainly a PAM config could fix this, but it's weird that this happens at all. Oh oh oh, and add an aside on creating two ssh keys, one for when connecting via local network, and the second that is password protected for when you're connecting from a global network, and use PAM to enforce the "local" key when at home, but a global password protected key when outside.
 
 > :DarkLight
 > > :InDark
