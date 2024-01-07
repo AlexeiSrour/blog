@@ -108,6 +108,9 @@ Things I'm researching and studying, for textbooks and the like that normally ta
 > > :Tab title=Current Studies
 > 
 > > :Tab title=Queued Studies
+> >
+> > - Foundations without Foundationalism: A case for Second-order Logic _Stewart Shapiro_
+> >     - This looks to be a lengthy ish text exploring higher order logics. I think this would be a good read to complement some of my research into proof checking and higher order logics. No excercises, so I can just read.
 > 
 > > :Tab title=Retired Studies
 > 
