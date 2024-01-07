@@ -93,6 +93,11 @@
       "hash": "BW5/JozIUuMeRr9sjNL7zw=="
     },
     {
+      "name": "TabSelector",
+      "filename": "/home/runner/work/blog/blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/tabs/selector.js",
+      "hash": "vG6ZDf7oINlAp89F4hMUuA=="
+    },
+    {
       "name": "ToCToggle",
       "filename": "/home/runner/work/blog/blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toggle/index.js",
       "hash": "k0lYj9deiYXngpZFqYY0vQ=="
@@ -111,11 +116,6 @@
       "name": "ArticleCard",
       "filename": "/home/runner/work/blog/blog/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/article-card/index.js",
       "hash": "4I2LlaAPZ3FDHhFl7YOveg=="
-    },
-    {
-      "name": "TabSelector",
-      "filename": "/home/runner/work/blog/blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/tabs/selector.js",
-      "hash": "vG6ZDf7oINlAp89F4hMUuA=="
     },
     {
       "name": "ToCPrevNext",
