@@ -33,6 +33,8 @@
 > >
 > > _Reproduce these steps at your own risk._
 
+**Check out https://smallstep.com/blog/diy-ssh-bastion-host/ for a seemingly decent link to a bunch of other links on hardening your ssh connection. Another two links are https://goteleport.com/blog/ssh-bastion-host/ and https://www.redhat.com/sysadmin/ssh-proxy-bastion-proxyjump**
+
 # The TL;DR
 
 As a first matter of business, I feel I owe it to myself and any potential readers to state my configurations and steps up front for convenience and for ease of access:
@@ -436,6 +438,8 @@ The expected outcomes of the above four cases, in order, are:
 > > ssh user@localIP
 > > >user@localIP: Permission denied (publickey).
 > > ```
+
+Please take special care that the pair of global connection test results match
 
 > :Collapse label=Legacy to be rewritten
 >

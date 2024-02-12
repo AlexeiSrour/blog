@@ -25,6 +25,8 @@ Add some words here
 > > :Tab title=Currently Planned Posts
 > >
 > > The below is a list of posts that I have planned for the near term future:
+> > - **Using bare Git repositories and worktrees**
+> >     - _A quick tutorial on the what and the why of Bare Git repos, and how to use worktrees in place of branching_
 > > - **Setting up SSH and PAM for safe public access to private network PCs (part 1)**
 > >     - _This first post will outline much of the setup before relying on PAM_
 > > - **Setting up SSH and PAM for safe public access to private network PCs (part 2)**
