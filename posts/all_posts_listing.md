@@ -57,3 +57,4 @@ For the timebeing, links to blog posts will be added manually in chronological o
 > > :InLight
 > >
 > > _Hero image by [Glenn Carstens-Peters](https://unsplash.com/@glenncarstenspeters) from [Unsplash](https://unsplash.com)_
+I want to be a ninja
