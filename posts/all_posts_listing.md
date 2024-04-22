@@ -45,6 +45,9 @@ For the timebeing, links to blog posts will be added manually in chronological o
 
 # Posts
 
+[Bare Git repos and Worktrees](/bare_git_repos_and_worktrees)
+> :ArticleCard src=/bare_git_repos_and_worktrees
+
 [Linux, SSH, and PAM (part 1)](/00_SSH-and-PAM)
 > :ArticleCard src=/00_SSH-and-PAM
 

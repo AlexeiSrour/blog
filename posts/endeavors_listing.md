@@ -91,6 +91,10 @@ Note, I reckon projects should specifically be about hardware and software devel
 > > - learning ML and/or HOL, HOL manual is a good reference and a gentle introduction to ML too
 > > - Michael Abrash has a piece on writing a software renderer for the intel Larabee architecture, I definitely want to try implementing it: https://www.cd.cmu.edu/afs/cs/academic/class/15869-f11/www/readings/abrash09_lrbrast.pdf
 > > - The bitsquit blog about a [data driven massively parallel virtual machine](https://bitsquid.blogspot.com/2012/10/a-data-oriented-data-driven-system-for.html) might be fun to implement
+> > - There's this video from an NES programmer usinf excel to simulate a cpu, check it out https://youtu.be/5rg7xvTJ8SU?si=FOjCc1x47UONjarg
+> >
+> >
+> >
 >
 > > :Tab title=Retired Projects
 >
