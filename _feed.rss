@@ -4,7 +4,7 @@
         <title>Alexei Srour's Blog</title>
         <link>https://alexeisrour.github.io/blog</link>
         <description></description>
-        <lastBuildDate>Tue, 23 Apr 2024 01:15:02 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 23 Apr 2024 01:17:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <atom:link href="https://alexeisrour.github.io/_feed.rss" rel="self" type="application/rss+xml"/>
@@ -12,7 +12,7 @@
             <title><![CDATA[Alexei Srour's Blog | My experience configuring SSH, PAM, port forwarding, and two-factor authentication for global access to my home PC]]></title>
             <link>https://alexeisrour.github.io/blog/00_SSH-and-PAM</link>
             <guid>https://alexeisrour.github.io/blog/00_SSH-and-PAM</guid>
-            <pubDate>Tue, 23 Apr 2024 01:13:59 GMT</pubDate>
+            <pubDate>Tue, 23 Apr 2024 01:16:52 GMT</pubDate>
             <content:encoded><![CDATA[My experience configuring SSH, PAM, port forwarding, and two-factor authentication for global access to my home PC ...]]></content:encoded>
             <author>alyosha85@hotmail.com (AlexeiSrour)</author>
             <enclosure url="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1900&h=600&fit=crop" length="0" type="image//photo-1486312338219-ce68d2c6f44d"/>
@@ -21,26 +21,25 @@
             <title><![CDATA[Alexei Srour's Blog | List of all blog posts]]></title>
             <link>https://alexeisrour.github.io/blog/all_posts_listing</link>
             <guid>https://alexeisrour.github.io/blog/all_posts_listing</guid>
-            <pubDate>Tue, 23 Apr 2024 01:13:59 GMT</pubDate>
+            <pubDate>Tue, 23 Apr 2024 01:16:52 GMT</pubDate>
             <content:encoded><![CDATA[List of all blog posts ...]]></content:encoded>
             <author>alyosha85@hotmail.com (AlexeiSrour)</author>
             <enclosure url="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1900&h=600&fit=crop" length="0" type="image//photo-1486312338219-ce68d2c6f44d"/>
         </item>
         <item>
-            <title><![CDATA[Alexei Srour's Blog]]></title>
+            <title><![CDATA[Alexei Srour's Blog | Sample Blog Post]]></title>
             <link>https://alexeisrour.github.io/blog/bare_git_repos_and_worktrees</link>
             <guid>https://alexeisrour.github.io/blog/bare_git_repos_and_worktrees</guid>
-            <pubDate>Tue, 23 Apr 2024 01:13:59 GMT</pubDate>
-            <content:encoded><![CDATA[Try to find some way to incorporate the HAcker news article for managing dotfiles.
-Try to include the .gitignore shenanigans and the recursive git folders issues
-Recall, one difference between different git location vs bare git repo and the branches is the .git text file. First points to the git-dir, second points to a branches folder in the bare git folder. slightly different, how to replicate ...]]></content:encoded>
+            <pubDate>Tue, 23 Apr 2024 01:16:52 GMT</pubDate>
+            <content:encoded><![CDATA[Sample Blog Post ...]]></content:encoded>
             <author>alyosha85@hotmail.com (AlexeiSrour)</author>
+            <enclosure url="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1900&h=600&fit=crop" length="0" type="image//photo-1486312338219-ce68d2c6f44d"/>
         </item>
         <item>
             <title><![CDATA[Alexei Srour's Blog | Sample Blog Post]]></title>
             <link>https://alexeisrour.github.io/blog/change</link>
             <guid>https://alexeisrour.github.io/blog/change</guid>
-            <pubDate>Tue, 23 Apr 2024 01:13:59 GMT</pubDate>
+            <pubDate>Tue, 23 Apr 2024 01:16:52 GMT</pubDate>
             <content:encoded><![CDATA[Sample Blog Post ...]]></content:encoded>
             <author>alyosha85@hotmail.com (AlexeiSrour)</author>
             <enclosure url="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1900&h=600&fit=crop" length="0" type="image//photo-1486312338219-ce68d2c6f44d"/>
@@ -49,7 +48,7 @@ Recall, one difference between different git location vs bare git repo and the b
             <title><![CDATA[Alexei Srour's Blog | Endeavors]]></title>
             <link>https://alexeisrour.github.io/blog/endeavors_listing</link>
             <guid>https://alexeisrour.github.io/blog/endeavors_listing</guid>
-            <pubDate>Tue, 23 Apr 2024 01:13:59 GMT</pubDate>
+            <pubDate>Tue, 23 Apr 2024 01:16:52 GMT</pubDate>
             <content:encoded><![CDATA[Endeavors ...]]></content:encoded>
             <author>alyosha85@hotmail.com (AlexeiSrour)</author>
         </item>
@@ -57,7 +56,7 @@ Recall, one difference between different git location vs bare git repo and the b
             <title><![CDATA[Alexei Srour's Blog | All texts, references, etc]]></title>
             <link>https://alexeisrour.github.io/blog/references_listing</link>
             <guid>https://alexeisrour.github.io/blog/references_listing</guid>
-            <pubDate>Tue, 23 Apr 2024 01:13:59 GMT</pubDate>
+            <pubDate>Tue, 23 Apr 2024 01:16:52 GMT</pubDate>
             <content:encoded><![CDATA[All texts, references, etc ...]]></content:encoded>
             <author>alyosha85@hotmail.com (AlexeiSrour)</author>
         </item>
@@ -65,7 +64,7 @@ Recall, one difference between different git location vs bare git repo and the b
             <title><![CDATA[Alexei Srour's Blog | Sample Blog Post]]></title>
             <link>https://alexeisrour.github.io/blog/sample-blog-post</link>
             <guid>https://alexeisrour.github.io/blog/sample-blog-post</guid>
-            <pubDate>Tue, 23 Apr 2024 01:13:59 GMT</pubDate>
+            <pubDate>Tue, 23 Apr 2024 01:16:52 GMT</pubDate>
             <content:encoded><![CDATA[Sample Blog Post ...]]></content:encoded>
             <author>alyosha85@hotmail.com (AlexeiSrour)</author>
             <enclosure url="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1900&h=600&fit=crop" length="0" type="image//photo-1486312338219-ce68d2c6f44d"/>
